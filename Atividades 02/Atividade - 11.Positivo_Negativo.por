@@ -17,11 +17,11 @@ programa {
 				soma += numero
 			}
 			
-			se(numero <= 0)
+			se(numero <= -1 )
 			{
 				escreva("\n",numero," é NEGATIVO\n")
 			}
-			senao
+			se(numero >= 1 )
 			{
 				escreva("\n",numero," é POSITIVO\n")
 			}
